@@ -20,9 +20,11 @@ public class Script {
 		File rfFile = new File(rfFilePath);
 		String scriptFilePath = commonPath+"Insert_Scripts.txt";
 		File scriptFile = new File(scriptFilePath);
-		String mapFilePath = commonPath+"Map.txt";
+		
+		String resourcePath = "Resource\\";
+		String mapFilePath = resourcePath+"GLN_Map.txt";
 		File mapFile = new File(mapFilePath);
-		String uptMapFilePath = commonPath+"UPT_Map.txt";
+		String uptMapFilePath = resourcePath+"UPT_Map.txt";
 		File uptMapFile = new File(uptMapFilePath);
 		
 		Scanner rfFileObj = new Scanner(rfFile);
